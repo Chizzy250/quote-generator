@@ -1,0 +1,64 @@
+body {
+  background:#778899;
+font-family: Trebuchet MS;
+}
+
+#name {
+  text-align: center;
+  text-transform: uppercase;
+box-shadow: 0 0 40px ;
+min-height: 2rem;
+margin-top: 1rem;
+padding-top: 16px;
+color: white;
+}
+
+.container {
+  background: #778899;
+  color:black;
+  text-align: center;
+  box-shadow: 0 0 8px 12px ;
+  min-height: 30em;
+}
+
+.author {
+  margin-top: 2rem;
+box-shadow: 0 0 4px;
+color: white;
+font-size: 22px;
+}
+
+#quote {
+font-size: 2rem;
+font-weight: 280em;
+font:Cursive Serif;
+padding-top: 3rem;
+margin-top: 2em;
+text-align: center;
+word-spacing: 1px;
+font-family: Ubuntu Mono;
+}
+
+.btn {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+background:#2F4F4F;
+color: white;
+font-size: 1em;
+padding: 12px;
+outline: none;
+}
+
+@media (max-width:320px) {
+  .container, .btn, .author, #quote, #name {
+    width: auto;
+    min-height: auto;
+ }
+}
+
+@media (max-width:600px) {
+  .container, .btn, .author, #quote, #name {
+    width: auto;
+    min-height: auto;
+ }
+}
